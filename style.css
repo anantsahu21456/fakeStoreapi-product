@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+html body
+{
+    width: 100%;
+    display: inline;
+}
+.mone
+{
+    width: 600px;
+    height: 307px;
+    border: 1px solid red ;
+    border-radius: 10px ;
+    display: flex;
+    justify-items: center;
+    margin: 20px;
+    box-shadow: 1px 3px teal;
+}
+
+.id
+{
+    border: 1px solid red;
+    width: 50px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2)   
+}
+.price
+{
+   width: 50px;
+   height: 70px;
+   padding-top: 10px;
+   border-radius: 10px; 
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2)
+}
+.title
+{
+    border: .5px solid rgba(255, 0, 0, 0.826);
+    width: 90px;
+    height: 300px;
+    overflow-wrap: break-word;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2)
+}
+.desc
+{
+    border: 1px solid red;
+    width: 200px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2)
+}
+.cate
+{
+    border: .3px solid rgba(240, 0, 0, 0.808);
+    width: 70px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2)
+}
+.photo
+{
+    border: .5px solid green;
+    width: 200px;
+    height: 300px;
+    padding-top: 20px;
+     box-shadow: 2px -2px 5px rgba(214, 25, 25, 0.55); 
+    border-radius: 10px;
+}
